@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: s-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+spec:
+  rules:
+  - host: hello-node.retiarno.my.id
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: node
+          servicePort: 3000
