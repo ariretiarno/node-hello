@@ -26,7 +26,7 @@ Forked from https://github.com/johnpapa/node-hello
 ![alt text](https://github.com/ariretiarno/node-hello/blob/master/image/kops%20validate%20cluster.png)
 
 ## Screenshots of the application
-### Access from browser node-hello.retiarno.my.id
+### Access from browser https://hello-node.retiarno.my.id
 ![alt text](https://github.com/ariretiarno/node-hello/blob/master/image/application%20url.png)
 
 ### SSL termination
