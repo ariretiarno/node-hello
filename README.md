@@ -22,7 +22,20 @@ Forked from https://github.com/johnpapa/node-hello
 4. create cluster for example ``` kops create cluster --node-count=1 --node-size=t3a.small --master-size=t3a.medium --zones=us-east-2a --name=${KOPS_CLUSTER_NAME} --ssh-public-key=~/.ssh/id_rsa.pub --cloud=aws```
 5. validate cluster ```kops validate cluster```
 
-## Screenshot of the application
+## Screenshot the cluster
+![alt text](https://github.com/ariretiarno/node-hello/blob/master/image/kops%20validate%20cluster.png)
+
+## Screenshots of the application
 ### Access from browser node-hello.retiarno.my.id
 ![alt text](https://github.com/ariretiarno/node-hello/blob/master/image/application%20url.png)
+
+### SSL termination
+![alt text](https://github.com/ariretiarno/node-hello/blob/master/image/ssl.png)
+
+### PODS, Services, Deployment, and Replicasets in a cluster
+![alt text](https://github.com/ariretiarno/node-hello/blob/master/image/kubectl%20get%20all.png)
+
+### Ingress
+![alt text](https://github.com/ariretiarno/node-hello/blob/master/image/kubectl%20get%20ingress.png)
+
 
