@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node
-        image: apache
+        image: httpd
         ports:
         - containerPort: 80
 ---
