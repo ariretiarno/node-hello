@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: node
-        image: ariretiarno/node-hello:1
+        image: apache
         ports:
-        - containerPort: 3000
+        - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
